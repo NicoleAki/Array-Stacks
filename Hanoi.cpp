@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// We have defined a Stack class with the required functions to be used in the problem
+
 class Stack {
     
     int* arr;
@@ -11,7 +11,7 @@ class Stack {
 
     public:
     
-        Stack(int size) { // The constructor has been defined for you
+        Stack(int size) { 
             arr = new int[size];
             capacity = size;
             top = -1;
@@ -118,7 +118,7 @@ void rearrangeDisks(int n, Stack& A, Stack& B, Stack& C, char from, char to, cha
     }
 }
 
-int main() { // The main function has been defined for you, do not edit anything here.
+int main() { 
     int n;
     cin >> n;
     if (n <= 0) {
