@@ -2,7 +2,6 @@
 
 using namespace std;
 
-//write your code here
 // Function to find the median of a sorted array(Assumption is the array is sorted)
 double median(int arrx[], int sizex) {
     if (sizex == 0) {
