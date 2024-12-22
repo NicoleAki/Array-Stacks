@@ -96,7 +96,6 @@ void displayTowers() {
 }
 
 void rearrangeDisks(int n, Stack& A, Stack& B, Stack& C, char from, char to, char aux) {
-    //Write your code here
     // Base Case: n=1
     //Move n from A to C
     if (n == 1){
