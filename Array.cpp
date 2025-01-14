@@ -55,8 +55,6 @@ double findMedian(int arr1[], int size1, int arr2[], int size2) {
 
 
 int main() {
-    // You can use cout statements, but ensure that you submit after commenting them out, as the autograder will otherwise mistake it for your actual output
-    // Everything else in the main function remains unchanged
     
     int size1;
     //cout << "Enter the size of the array1: ";
